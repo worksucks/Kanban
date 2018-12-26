@@ -1,0 +1,66 @@
+.board {
+  border: 1px solid #111;
+  display: inline-block;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.create-column {
+  margin-left: 10px;
+}
+
+.column-container {
+  display: flex;
+
+}
+
+.column {
+  width: 300px;
+  border: 1px dashed #111;
+  margin: 10px;
+  padding: 10px;
+  background-color: #96897f;
+}
+
+.column .btn-delete {
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 300px;
+  padding-bottom:20px;
+  margin-left: -40px;
+  background-color: #e0e2e4;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn-delete {
+  width: 100%;
+}
+
+.add-card {
+  width: 100%;
+}
+
+.card {
+  height: 50px;
+}
+
+.card p {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.card .btn-delete {
+  position: relative;
+  top: -5px;
+  width: 90%;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
