@@ -24,6 +24,10 @@ h1 {
   background-color: #96897f;
 }
 
+.column-card-list {
+  min-height: 200px;
+}
+
 .column .btn-delete {
   margin-bottom: 5px;
 }
